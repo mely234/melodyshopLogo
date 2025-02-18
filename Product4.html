@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crema Hidratante</title>
+        <link rel="stylesheet" href="Products.css">
+        <link rel="shortcut icon" href="imagenes/melodyshopLogo.webp">
+    </head>
+<body>
+    
+
+    <header>
+        <img src="imagenes/melodyshopLogo.webp" alt="MelodyShopLogo">
+        <div class="Menu">
+            <a href="home.html">Home</a>
+            <a href="Maquillajes.html">Maquillajes</a>
+            <a href="Ropa.html">Perfumes</a>
+            <a href="Cremas.html">Cremas</a>
+            <a href="SobreNosotros.html">Sobre Nosotros</a>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="flex: 1;">
+                <img src="imagenes/Cremas/cremas.jpg" alt="cremahidratante" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="col" style="flex: 2; padding-left: 2rem;">
+                <h1>Crema Hidratante</h1>
+                <p>Rejuvenece e hidrata la piel en poco tiempo</p>
+                <h2>RD$1400.00</h2>
+                <form action="agregar_carrito.php" method="post">
+                    <input type="hidden" name="id" value="2">
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="cantidad" value="1" min="1" style="width: 60px; margin-left: 10px;">
+                    <button type="submit" class="btn btn-success">Agregar al carrito</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p> MelodyShop 2025,Todos los derechos reservados©.</p>
+    </footer>
+
+
+</body>
+</html>

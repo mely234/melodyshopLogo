@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fijador del maquillaje de All Nighter</title>
+        <link rel="stylesheet" href="Products.css">
+    </head>
+<body>
+    
+
+    <header>
+        <img src="imagenes/melodyshopLogo.webp" alt="MelodyShopLogo">
+        <div class="Menu">
+            <a href="home.html">Home</a>
+            <a href="Maquillajes.html">Maquillajes</a>
+            <a href="Ropa.html">Ropa</a>
+            <a href="Cremas.html">Cremas</a>
+            <a href="SobreNosotros.html">Sobre Nosotros</a>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="flex: 1;">
+                <img src="imagenes/Maquillajes/fijador maquillaje.avif" alt="fijadormaquillaje" style="max-width: 100%; height: 380px;">
+            </div>
+            <div class="col" style="flex: 2; padding-left: 2rem;">
+                <h1>Fijador del maquillaje de All Nighter</h1>
+                <p>ALL NIGHTER Vitamin C Long Lasting Makeup Setting Spray es un spray fijador ingrávido que fija el maquillaje hasta 16 horas, a la vez que ilumina e hidrata la piel con vitamina C..</p>
+                <h2>RD$900.00</h2>
+                <form action="agregar_carrito.php" method="post">
+                    <input type="hidden" name="id" value="2">
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="cantidad" value="1" min="1" style="width: 60px; margin-left: 10px;">
+                    <button type="submit" class="btn btn-success">Agregar al carrito</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p> MelodyShop 2025,Todos los derechos reservados©.</p>
+    </footer>
+
+
+</body>
+</html>
